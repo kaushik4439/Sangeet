@@ -2,8 +2,10 @@
 Sangeet is a music player for android devices ,which reads all songs present inside  device and shows songs as artists wise, album wise, song title wise in sorted order.  This application have basic features  like PlayRandom, repeat, playNext ,playPrevious, seekbar, albumart required for a music player.
 
 #Libraries Used-
-[a link](https://github.com/umano/AndroidSlidingUpPanel)
-[a link](https://github.com/square/picasso)
+
+*AndroidSlidingUpPanel: [`https://github.com/umano/AndroidSlidingUpPanel`](https://github.com/umano/AndroidSlidingUpPanel)*
+*Picasso: [`https://github.com/square/picassol`](https://github.com/square/picasso)*
+
 
 # Screenshots
 
