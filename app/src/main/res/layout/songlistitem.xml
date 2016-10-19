@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#242329"
+    android:id="@+id/list_item"
+    android:padding="5dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/song_image"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:paddingLeft="5dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_centerVertical="true"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:id="@+id/song_info"
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/song_image"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:id="@+id/song_title"
+                android:textColor="#FFFFFF"
+                android:paddingLeft="10dp"
+                android:textSize="17sp"
+                android:textStyle = "normal"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:id="@+id/song_artist"
+                android:textSize="13sp"
+                android:paddingTop="2dp"
+                android:paddingLeft="10dp"
+                android:textColor="#808080" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
