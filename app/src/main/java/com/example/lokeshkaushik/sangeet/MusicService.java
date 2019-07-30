@@ -149,19 +149,7 @@ public class MusicService extends Service implements MediaPlayer.OnErrorListener
         LocalBroadcastManager.getInstance(this).sendBroadcast(intent);
     }
 
-    /*@Override
-    public void onDestroy() {
-        super.onDestroy();
-        Gson gson = new Gson();
-        SharedPreferences prefs = getSharedPreferences("songList", Context.MODE_PRIVATE);
-        SharedPreferences.Editor editor = prefs.edit();
-        ArrayList<SongData> songList = new ArrayList<>();
-        songList.addAll(songs);
-        String jsonText = gson.toJson(songList);
-        gson.toJson(songPosn);
-        editor.putString("songList", jsonText);
-        editor.apply();
-    }*/
+
 
     private void sendSongDetails(SongData currentSong) {
         Intent intent = new Intent("SongDetails");
